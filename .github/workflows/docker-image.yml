@@ -16,7 +16,7 @@ jobs:
 
     env:
       DOTNET_VERSION: '8.0'
-      IMAGE_NAME: '${{ github.repository_owner }}/temperature-demo'
+      IMAGE_NAME: 'celsojrss96/temperature-demo'
 
     steps:
     - name: Checkout repository
